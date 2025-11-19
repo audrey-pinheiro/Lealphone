@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+/* VÍDEO */
+.banner{
+ width: 60%;
+ max-width: 600px;
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+.banner banner{
+    width: 2vw;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 22px;
+}
+
+.risco {
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+/* IMAGEM PRINCIPAL */
+.produto {
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+.img-principal {
+    width: 270px;
+    border-radius: 12px;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* PROPAGANDA */
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* MENU */
+.menu {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+
+/* EXTRA */
+.extra {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.extra2{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.selfies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.selfies img {
+    width: 45%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* VÍDEO */
+.video {
+    margin: 20px;
+    text-align: center;
+}
+.video video {
+    width: 90%;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 40px;
+    background: #101010;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.topo-btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 30px;
+    background: #ffcd00;
+    color: black;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* WHATSAPP */
+.whats{
+        position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+.whats img {
+    width: 100%;
+    height: 100%;
+}
+
