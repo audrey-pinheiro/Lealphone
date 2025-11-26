@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+/* VÍDEO */
+.banner{
+ width: 60%;
+ max-width: 600px;
+ height: auto;
+ display: block;
+ margin: 0 auto;
+}
+.banner banner{
+    width: 2vw;
+    text-align: center;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.preco {
+    font-size: 22px;
+    text-align: center;
+}
+
+.risco {
+    text-decoration: line-through;
+    opacity: 0.8;
+}
+
+/* IMAGEM PRINCIPAL */
+.produto {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+.img-principal {
+    width: 270px;
+    border-radius: 12px;
+}
+
+/* DESCRIÇÃO */
+.descricao {
+    background: rgb(255, 254, 254);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* PROPAGANDA */
+.banner img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* MENU */
+.menu {
+    background: #222;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    font-weight: bold;
+}
+.galeria img {
+    display: inline-block;
+    width: 150px;
+}
+
+/* EXTRA */
+.extra {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+}
+.extra2{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.selfies {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.selfies img {
+    width: 45%;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+/* VÍDEO */
+.video {
+    margin: 20px;
+    text-align: center;
+}
+.video video {
+    width: 90%;
+    border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer {
+    margin-top: 40px;
+    background: #101010;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.topo-btn {
+    display: block;
+    margin-top: 0;
+    padding: 10px 30px;
+    background: #ffcd00;
+    color: rgb(5, 5, 5);
+    border-radius: 1px;
+    text-decoration: none;
+    
+}
+
+/* WHATSAPP */
+.whats{
+        position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 60px;
+    height: 60px;
+    background: #25D366;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    border-radius: 50%;
+    text-decoration: none;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+
+.whats img {
+    width: 100%;
+    height: 100%;
+}
+/* Tablets */
+@media screen and (min-width:679px) and (max-width:1023px) {
+ nav{
+   display: grid;   
+   grid-template-columns: 1fr 1fr;
+   margin: auto;
+    } 
+ button{
+padding: 5% 5%;
+       }
+main{
+flex-direction: column;
+flex-wrap: wrap;
+    }
+}
+/* Celular */
+@media screen and (max-width:678px) {
+ nav{
+flex-direction: column;
+flex-wrap: wrap;
+ }     
+ button{
+padding: 5% 30%;
+ }   
+ main{
+flex-direction: column;
+flex-wrap: wrap;
+ }         
+ footer{
+width: 100px;
+padding: 20% 40%;
+ }  
+}
